@@ -1,5 +1,5 @@
 baseURL = "https://garun87.github.io/"
-title = "Your Name"
+title = "Arun Govindankutty"
 theme = "hugo-coder"
 languageCode = "en"
 defaultContentLanguage = "en"
@@ -7,9 +7,9 @@ paginate = 20
 enableEmoji = true
 
 [params]
-author = "Your Name"
+author = "Arun Govindankutty"
 description = "Your Description"
-info = ["Your Role/Title", "Another Line"]
+info = ["PhD Student, Ex-Intel, Ex-Ansys"]
 avatarURL = "images/avatar.jpg"
 dateFormat = "January 2, 2006"
 since = 2024
@@ -20,16 +20,51 @@ colorScheme = "auto"
 [[params.social]]
 name = "Github"
 icon = "fa fa-github fa-2x"
-weight = 1
+weight = 3
 url = "https://github.com/garun87"
+
+[[params.social]]
+name = "LinkedIn"
+icon = "fa fa-linkedin fa-2x"
+weight = 1
+url = "https://www.linkedin.com/in/arun-govindankutty/"
+
+[[params.social]]
+name = "Google Scholar"
+icon = "fa fa-graduation-cap fa-2x"
+weight = 2
+url = "https://scholar.google.com/citations?user=qMBXv-AAAAAJ&hl=en"
+
+[[params.social]]
+name = "IEEE Xplore"
+icon = "fa fa-book fa-2x"
+weight = 4
+url = "https://ieeexplore.ieee.org/author/37089567960"
+
+[[params.social]]
+name = "ResearchGate"
+icon = "fa fa-flask fa-2x"
+weight = 5
+url = "https://www.researchgate.net/profile/Arun-Govindankutty"
 
 # Menu links
 [[menu.main]]
 name = "Blog"
-weight = 1
+weight = 3
 url = "posts/"
 
 [[menu.main]]
 name = "About"
-weight = 2
+weight = 1
 url = "about/"
+
+[[menu.main]]
+name = "CV"
+weight = 2
+url = "files/cv.pdf" 
+
+# Menu links
+[[menu.main]]
+name = "Contact"
+weight = 3
+url = "contact/"
